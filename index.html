@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/pfpt.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Mercury - Dashboard</title>
+</head>
+<body>
+    <div class="loadingContainer">
+        <div class="loader"></div>
+    </div>
+
+    <div class="header">
+        <div class="container">
+            <div class="text">
+                <h1>Mercury</h1>
+                <p>Mercury is an Allrounder used for Moderation, Functionality and Entertainment</p>    
+            </div>
+            <div class="image">
+                <img src="img/pfpt.png" alt="">
+            </div>
+        </div>
+        <img class="wave" src="img/wave.png" alt="">
+    </div>
+
+    <div class="cardContainer">
+        <div class="card"></div>
+    </div>
+
+    <script>
+        $(window).on("load",function(){
+            $(".loadingContainer").fadeOut(1000);
+        });
+    </script>
+</body>
+</html>
